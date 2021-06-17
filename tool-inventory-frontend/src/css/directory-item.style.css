@@ -12,20 +12,14 @@
 .directory-item :hover {
   cursor: pointer;
 }
-.directory-item :hover .background-image {
+.directory-item :hover.background-image {
   transform: scale(1.3);
   transition: transform 5s ease-out;
 }
-.directory-item :hover .content {
+.directory-item :hover.content {
   opacity: 0.9;
 }
-.directory-item :first-child {
-  margin-right: 8px;
-}
-.directory-item :last-child {
-  margin-left: 8px;
-}
-.directory-item .large {
+.directory-item.large {
   height: 380px;
 }
 .directory-item .background-image {

@@ -2,7 +2,7 @@ import React from "react";
 import "../../sass/directory-item.style.scss";
 
 const DirectoryItem = ({ image, title, size }) => (
-  <div className={`${size} directory-item`}>
+  <div className={`directory-item ${size} `}>
     <div
       style={{ backgroundImage: `url(${image})` }}
       className="background-image"
